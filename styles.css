@@ -1,0 +1,28 @@
+/* Custom styles */
+.scale-102 {
+    transform: scale(1.2);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Animation for loading spinner */
+  @keyframes spin {
+    to {
+      transform: rotate();
+    }
+  }
+  
+  .animate-spin {
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Transitions */
+  .transition-all {
+    transition: all 0.1s ease;
+  }
+  
+
+
+  
